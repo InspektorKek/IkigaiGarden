@@ -7,18 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B31F2E212B8CC1710012DC41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F2E202B8CC1710012DC41 /* AppDelegate.swift */; };
-		B31F2E232B8CC1710012DC41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F2E222B8CC1710012DC41 /* ContentView.swift */; };
+		B31F2E232B8CC1710012DC41 /* IkigaiGardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F2E222B8CC1710012DC41 /* IkigaiGardenApp.swift */; };
 		B31F2E252B8CC1720012DC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31F2E242B8CC1720012DC41 /* Assets.xcassets */; };
 		B31F2E282B8CC1720012DC41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31F2E272B8CC1720012DC41 /* Preview Assets.xcassets */; };
+		B39FC3BA2B8CC267006F0C6B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B39FC3B92B8CC267006F0C6B /* README.md */; };
+		B39FC3C72B8CC290006F0C6B /* ARExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FC3BB2B8CC28F006F0C6B /* ARExperience.swift */; };
+		B39FC3C82B8CC290006F0C6B /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FC3BC2B8CC28F006F0C6B /* MusicPlayer.swift */; };
+		B39FC3C92B8CC290006F0C6B /* ARMeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FC3BD2B8CC28F006F0C6B /* ARMeditationView.swift */; };
+		B39FC3CA2B8CC290006F0C6B /* ARMeditationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FC3BE2B8CC290006F0C6B /* ARMeditationCoordinator.swift */; };
+		B39FC3CB2B8CC290006F0C6B /* OnboardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FC3BF2B8CC290006F0C6B /* OnboardingStep.swift */; };
+		B39FC3CC2B8CC290006F0C6B /* OrientationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FC3C02B8CC290006F0C6B /* OrientationManager.swift */; };
+		B39FC3CD2B8CC290006F0C6B /* LeafScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FC3C12B8CC290006F0C6B /* LeafScene.swift */; };
+		B39FC3CE2B8CC290006F0C6B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FC3C22B8CC290006F0C6B /* MenuView.swift */; };
+		B39FC3CF2B8CC290006F0C6B /* TypeWriterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FC3C32B8CC290006F0C6B /* TypeWriterView.swift */; };
+		B39FC3D02B8CC290006F0C6B /* VolumeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FC3C42B8CC290006F0C6B /* VolumeButtonStyle.swift */; };
+		B39FC3D12B8CC290006F0C6B /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FC3C52B8CC290006F0C6B /* AppConstants.swift */; };
+		B39FC3D22B8CC290006F0C6B /* Font+Karasha.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FC3C62B8CC290006F0C6B /* Font+Karasha.swift */; };
+		B39FC3D92B8CC2A2006F0C6B /* meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B39FC3D32B8CC2A2006F0C6B /* meditation.mp3 */; };
+		B39FC3DA2B8CC2A2006F0C6B /* SakuraLeaf.sks in Resources */ = {isa = PBXBuildFile; fileRef = B39FC3D42B8CC2A2006F0C6B /* SakuraLeaf.sks */; };
+		B39FC3DB2B8CC2A2006F0C6B /* Karasha.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B39FC3D52B8CC2A2006F0C6B /* Karasha.ttf */; };
+		B39FC3DC2B8CC2A2006F0C6B /* MeditationScene.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B39FC3D62B8CC2A2006F0C6B /* MeditationScene.usdz */; };
+		B39FC3DD2B8CC2A2006F0C6B /* MainMenuBackground.scn in Resources */ = {isa = PBXBuildFile; fileRef = B39FC3D72B8CC2A2006F0C6B /* MainMenuBackground.scn */; };
+		B39FC3DE2B8CC2A2006F0C6B /* background_music_main.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B39FC3D82B8CC2A2006F0C6B /* background_music_main.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B31F2E1D2B8CC1710012DC41 /* Ikigai Garden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ikigai Garden.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B31F2E202B8CC1710012DC41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B31F2E222B8CC1710012DC41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B31F2E222B8CC1710012DC41 /* IkigaiGardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkigaiGardenApp.swift; sourceTree = "<group>"; };
 		B31F2E242B8CC1720012DC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B31F2E272B8CC1720012DC41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B39FC3B82B8CC1E0006F0C6B /* Ikigai-Garden-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ikigai-Garden-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B39FC3B92B8CC267006F0C6B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B39FC3BB2B8CC28F006F0C6B /* ARExperience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARExperience.swift; sourceTree = "<group>"; };
+		B39FC3BC2B8CC28F006F0C6B /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		B39FC3BD2B8CC28F006F0C6B /* ARMeditationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMeditationView.swift; sourceTree = "<group>"; };
+		B39FC3BE2B8CC290006F0C6B /* ARMeditationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMeditationCoordinator.swift; sourceTree = "<group>"; };
+		B39FC3BF2B8CC290006F0C6B /* OnboardingStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingStep.swift; sourceTree = "<group>"; };
+		B39FC3C02B8CC290006F0C6B /* OrientationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationManager.swift; sourceTree = "<group>"; };
+		B39FC3C12B8CC290006F0C6B /* LeafScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeafScene.swift; sourceTree = "<group>"; };
+		B39FC3C22B8CC290006F0C6B /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		B39FC3C32B8CC290006F0C6B /* TypeWriterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeWriterView.swift; sourceTree = "<group>"; };
+		B39FC3C42B8CC290006F0C6B /* VolumeButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeButtonStyle.swift; sourceTree = "<group>"; };
+		B39FC3C52B8CC290006F0C6B /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		B39FC3C62B8CC290006F0C6B /* Font+Karasha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Karasha.swift"; sourceTree = "<group>"; };
+		B39FC3D32B8CC2A2006F0C6B /* meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation.mp3; sourceTree = "<group>"; };
+		B39FC3D42B8CC2A2006F0C6B /* SakuraLeaf.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SakuraLeaf.sks; sourceTree = "<group>"; };
+		B39FC3D52B8CC2A2006F0C6B /* Karasha.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Karasha.ttf; sourceTree = "<group>"; };
+		B39FC3D62B8CC2A2006F0C6B /* MeditationScene.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = MeditationScene.usdz; sourceTree = "<group>"; };
+		B39FC3D72B8CC2A2006F0C6B /* MainMenuBackground.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = MainMenuBackground.scn; sourceTree = "<group>"; };
+		B39FC3D82B8CC2A2006F0C6B /* background_music_main.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background_music_main.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +88,16 @@
 		B31F2E1F2B8CC1710012DC41 /* Ikigai Garden */ = {
 			isa = PBXGroup;
 			children = (
-				B31F2E202B8CC1710012DC41 /* AppDelegate.swift */,
-				B31F2E222B8CC1710012DC41 /* ContentView.swift */,
+				B39FC3B92B8CC267006F0C6B /* README.md */,
+				B39FC3B82B8CC1E0006F0C6B /* Ikigai-Garden-Info.plist */,
+				B31F2E222B8CC1710012DC41 /* IkigaiGardenApp.swift */,
 				B31F2E242B8CC1720012DC41 /* Assets.xcassets */,
+				B39FC3E72B8CC4CE006F0C6B /* Utils */,
+				B39FC3E52B8CC2F8006F0C6B /* Model */,
+				B39FC3E82B8CC4DC006F0C6B /* Service */,
+				B39FC3E62B8CC303006F0C6B /* Extensions */,
+				B39FC3E42B8CC2DB006F0C6B /* View */,
+				B39FC3DF2B8CC2A6006F0C6B /* Resources */,
 				B31F2E262B8CC1720012DC41 /* Preview Content */,
 			);
 			path = "Ikigai Garden";
@@ -65,6 +109,98 @@
 				B31F2E272B8CC1720012DC41 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B39FC3DF2B8CC2A6006F0C6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B39FC3E22B8CC2CB006F0C6B /* Font */,
+				B39FC3E32B8CC2D0006F0C6B /* Scene */,
+				B39FC3E12B8CC2C2006F0C6B /* Particles */,
+				B39FC3E02B8CC2B8006F0C6B /* Music */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B39FC3E02B8CC2B8006F0C6B /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				B39FC3D82B8CC2A2006F0C6B /* background_music_main.mp3 */,
+				B39FC3D32B8CC2A2006F0C6B /* meditation.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		B39FC3E12B8CC2C2006F0C6B /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				B39FC3D42B8CC2A2006F0C6B /* SakuraLeaf.sks */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		B39FC3E22B8CC2CB006F0C6B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B39FC3D52B8CC2A2006F0C6B /* Karasha.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		B39FC3E32B8CC2D0006F0C6B /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B39FC3D72B8CC2A2006F0C6B /* MainMenuBackground.scn */,
+				B39FC3D62B8CC2A2006F0C6B /* MeditationScene.usdz */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		B39FC3E42B8CC2DB006F0C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B39FC3BE2B8CC290006F0C6B /* ARMeditationCoordinator.swift */,
+				B39FC3BD2B8CC28F006F0C6B /* ARMeditationView.swift */,
+				B39FC3C12B8CC290006F0C6B /* LeafScene.swift */,
+				B39FC3C22B8CC290006F0C6B /* MenuView.swift */,
+				B39FC3C32B8CC290006F0C6B /* TypeWriterView.swift */,
+				B39FC3C42B8CC290006F0C6B /* VolumeButtonStyle.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B39FC3E52B8CC2F8006F0C6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B39FC3BF2B8CC290006F0C6B /* OnboardingStep.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B39FC3E62B8CC303006F0C6B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B39FC3C62B8CC290006F0C6B /* Font+Karasha.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B39FC3E72B8CC4CE006F0C6B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B39FC3C52B8CC290006F0C6B /* AppConstants.swift */,
+				B39FC3BB2B8CC28F006F0C6B /* ARExperience.swift */,
+				B39FC3C02B8CC290006F0C6B /* OrientationManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B39FC3E82B8CC4DC006F0C6B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B39FC3BC2B8CC28F006F0C6B /* MusicPlayer.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +261,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39FC3BA2B8CC267006F0C6B /* README.md in Resources */,
+				B39FC3DA2B8CC2A2006F0C6B /* SakuraLeaf.sks in Resources */,
+				B39FC3DD2B8CC2A2006F0C6B /* MainMenuBackground.scn in Resources */,
 				B31F2E282B8CC1720012DC41 /* Preview Assets.xcassets in Resources */,
+				B39FC3D92B8CC2A2006F0C6B /* meditation.mp3 in Resources */,
+				B39FC3DB2B8CC2A2006F0C6B /* Karasha.ttf in Resources */,
 				B31F2E252B8CC1720012DC41 /* Assets.xcassets in Resources */,
+				B39FC3DC2B8CC2A2006F0C6B /* MeditationScene.usdz in Resources */,
+				B39FC3DE2B8CC2A2006F0C6B /* background_music_main.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +280,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B31F2E232B8CC1710012DC41 /* ContentView.swift in Sources */,
-				B31F2E212B8CC1710012DC41 /* AppDelegate.swift in Sources */,
+				B39FC3CD2B8CC290006F0C6B /* LeafScene.swift in Sources */,
+				B39FC3CA2B8CC290006F0C6B /* ARMeditationCoordinator.swift in Sources */,
+				B39FC3C72B8CC290006F0C6B /* ARExperience.swift in Sources */,
+				B39FC3CC2B8CC290006F0C6B /* OrientationManager.swift in Sources */,
+				B39FC3CE2B8CC290006F0C6B /* MenuView.swift in Sources */,
+				B39FC3D22B8CC290006F0C6B /* Font+Karasha.swift in Sources */,
+				B39FC3C92B8CC290006F0C6B /* ARMeditationView.swift in Sources */,
+				B31F2E232B8CC1710012DC41 /* IkigaiGardenApp.swift in Sources */,
+				B39FC3D12B8CC290006F0C6B /* AppConstants.swift in Sources */,
+				B39FC3CB2B8CC290006F0C6B /* OnboardingStep.swift in Sources */,
+				B39FC3D02B8CC290006F0C6B /* VolumeButtonStyle.swift in Sources */,
+				B39FC3C82B8CC290006F0C6B /* MusicPlayer.swift in Sources */,
+				B39FC3CF2B8CC290006F0C6B /* TypeWriterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,19 +423,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Ikigai Garden/Preview Content\"";
 				DEVELOPMENT_TEAM = 38BRD9SJV7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ikigai-Garden-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +448,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikhail.borisov.Ikigai-Garden";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,19 +462,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Ikigai Garden/Preview Content\"";
 				DEVELOPMENT_TEAM = 38BRD9SJV7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ikigai-Garden-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,6 +487,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikhail.borisov.Ikigai-Garden";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

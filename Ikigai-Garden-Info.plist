@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCameraUsageDescription</key>
+	<string>To enjoy the AR experience.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Karasha.ttf</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+        <key>UIColorName</key>
+        <string>splash_color</string>
+        <key>UIImageName</key>
+        <string>splash_screen_logo</string>
+        <key>UIImageRespectsSafeAreaInsets</key>
+        <false/>
+	</dict>
+</dict>
+</plist>
